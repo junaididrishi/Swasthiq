@@ -1,0 +1,50 @@
+{
+  "doctors": [
+    {
+      "id": "d_rao",
+      "name": "Dr. Rao",
+      "specialty": "General Physician"
+    },
+    {
+      "id": "d_sharma",
+      "name": "Dr. Sharma",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d_verma",
+      "name": "Dr. Verma",
+      "specialty": "Dermatology"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pt_0192",
+      "name": "Rahul Sharma",
+      "phone": "+91-9876543210"
+    },
+    {
+      "id": "pt_0193",
+      "name": "Rahul Verma",
+      "phone": "+91-9876543211"
+    },
+    {
+      "id": "pt_0194",
+      "name": "Sunita Devi",
+      "phone": "+91-9876543212"
+    },
+    {
+      "id": "pt_0195",
+      "name": "Anil Mehta",
+      "phone": "+91-9876543213"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt_101",
+      "patient_id": "pt_0194",
+      "doctor_id": "d_rao",
+      "date": "2026-09-28",
+      "time": "09:30"
+    }
+  ]
+}
